@@ -24,14 +24,14 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundcolor: '#f0f0f0',
+        backgroundColor: '#40E0D0',
     },
     title: {
         fontSize: 24,
         marginBottom: 20,
     },
     buttoncontainer: {
-        backgroundcolor: '#add8e6',
+        backgroundcolor: '#060270',
         margin: 10,
         witdh: windowWidth * 0.5,
         borderradius: 5,

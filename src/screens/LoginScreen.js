@@ -9,7 +9,7 @@ export default function LoginScreen({ navigation }) {
     if (username === 'admin' && password === '1234') {
       navigation.navigate('Home');
     } else {
-      Alert.alert('Login inválido!');
+      Alert.alert('Login inválido!'); 
     }
   };
 
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#fff',
+    backgroundColor: '#40E0D0',
   },
   title: {
     fontSize: 24,
@@ -53,6 +53,7 @@ const styles = StyleSheet.create({
     width: '100%',
     height: 40,
     borderColor: '#ccc',
+    backgroundColor: '#fff',
     borderWidth: 1,
     borderRadius: 4,
     marginBottom: 16,
@@ -61,5 +62,9 @@ const styles = StyleSheet.create({
   button: {
     marginTop: 16,
     width: '100%',
+    borderWidth: 3,
+    borderColor: '#ffffff',
+    backgroundColor: '#87CEFA', 
+    borderRadius: 50,
   },
 });
